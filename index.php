@@ -4,7 +4,7 @@ require_once ('./config/db.php');
 
 use NoahBuscher\Macaw\Macaw;
 
-Macaw::get('/', 'Core\CoreController@index');
+Macaw::get('/', 'App\ArticleController@index');
 
 
 Macaw::dispatch();
