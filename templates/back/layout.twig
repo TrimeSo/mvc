@@ -9,8 +9,9 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet" type="text/css">
 </head>
-<body>
+<div>
 
 <nav class="navbar navbar-expand-sm navbar-light bg-light">
     <a class="navbar-brand" href="#">Navbar</a>
@@ -29,7 +30,7 @@
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true"
-                   aria-expanded="false">Dropdown</a>
+                   aria-expanded="false">Categories</a>
                 <div class="dropdown-menu" aria-labelledby="dropdownId">
                     <a class="dropdown-item" href="#">Action 1</a>
                     <a class="dropdown-item" href="#">Action 2</a>
@@ -42,13 +43,28 @@
         </form>
     </div>
 </nav>
+</div>
 
+<div id="header">
+
+</div>
+
+<div id="content">
 <h1>{{ message }}</h1>
+<br>
 
 {% for article in articles %}
-    <h2>{{ article.name }}</h2>
-    <p>{{ article.text }}</p>
+    <h1>{{ article.name }}</h1>
+    <h3>{{ article.text }}</h3>
+   <br>
+    <br>
+    <br>
 {% endfor %}
+</div>
+
+<div id='footer'>
+    <p>Footer</p>
+</div>
 
 
 <!-- Optional JavaScript -->

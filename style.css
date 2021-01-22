@@ -1,0 +1,24 @@
+h1 {
+    color: cadetblue;
+}
+
+body {
+    background-color: snow;
+}
+
+#footer {
+    margin-top: 330px;
+    height: 200px;
+    text-align: center;
+    font-size: 14pt;
+    color: green;
+    background-color: silver;
+}
+
+#header {
+height: 200px;
+    border: 2px solid #000;
+background: url(images/Canada_Lake_Mountains_446666.jpg) 100% 100% no-repeat;
+    background-size: cover;
+
+}
