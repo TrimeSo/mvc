@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Raleway:wght@300&display=swap');
+
+body {
+background-color: #f2f2f2;
+font-family: "Lato";
+font-weight: 300;
+font-size: 17px;
+color: #555;
+
+-webkit-font-smoothing: antialiased;
+-webkit-overflow-scrolling: touch;
+
+margin-top: 70px;
+}
+
+h1, h2, h3, h4, h5{
+    font-family: "Raleway";
+    font-weight: 300;
+    color: #333;
+}
+
+p{
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.centered{
+    text-align: center;
+}
+
+a{
+    color:#f85c37;
+}
+
+a:hover, a:focus{
+    columns: #7b7b7b;
+    text-decoration: none;
+    outline: 0;
+     
+}
+
+hr{
+    display:block;
+    height: 1px;
+    border:0;
+    border-top: 1px;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.navbar{
+    font-weight: 800;
+    font-size: 14px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.navbar-inverse{
+    background: #2d2d2d;
+    border-color: #2d2d2d;
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+    background-color: #ff7878;
+}
+
+.navbar-inverse .navbar-brand{
+    color: #999;
+    font-weight: bolder;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+#headerwrap{
+    background: url(../../../images/Canada_Lake_Mountains_446666.jpg) no-repeat center top;
+    margin-top: -10px;
+    padding-top: 20px;
+    text-align: center;
+    background-attachment: relative ;
+    background-position: center center;
+    min-height: 500px;
+    width: 100%;
+    background-size: cover;
+    
+}
+
+#headerwrap h1{
+    margin-top: 70px;
+    color:rgb(236, 229, 229);
+    font-size: 59px;
+    font-weight: 300;
+    letter-spacing: 3px;
+}
+
+#headerwrap h2{
+    color:rgb(26, 24, 24);
+    font-size: 40px;
+    letter-spacing:2px;
+    text-transform:initial;
+    padding-top: 30px;
+}
+
+.w{
+    padding-top: 35px;
+}
+
+.w h4{
+    font-size: 25px;
+}
+
+#dg{
+    background: #e0e0e0;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+#dg img{
+    height: 400px;
+    width: 400px;
+}
+
+#dg h4{
+    font-size: 34px;
+    margin-top: 159px;
+    padding-bottom: 40px;
+}
+
+.tilt{
+    transition: all 2.5s ease;
+}
+
+.tilt:hover{
+    transform: rotate(360deg);
+}
+
+#lastnews{
+    background: white;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+#lastnews img{
+    padding-top: 50px;
+    height: 550px;
+    width: 400px;
+    padding-right: 50px;
+}
+
+#lastnews h3{
+    font-size: 30px;
+    text-align: center;
+}
+#lastnews h4{
+    font-size: 18px;
+
+}
+
+#footer{
+    background: #2d2d2d;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#footer p{
+    font-size: 25px;
+}
+#footer a{
+    font-size: 30px;
+}
+
+.input-group{
+position: fixed;
+    right: 10px;
+}
+.input-group button{
+    margin-top: 10px;
+    font-size: 25px;
+}
+.input-group input{
+    margin-top: 15px;
+}
+
+#aboutcont img{
+    width: 1000px;
+    height: 450px;
+    padding-top: 40px;
+    margin-left: 20px;
+    padding-bottom: 40px;
+}
+#aboutcont h1{
+    text-align: center;
+    font-size: 50px;
+}
+#text .text-center{
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+#mc{
+    width: auto;
+    height: 720px;
+    background: silver;
+}
+
+#inputmail{
+    margin-top: 20px;
+    padding: 15px;
+}
+#buttonmail{
+    width: 150px;
+}
+
+.clist{
+    margin: 30px;
+    padding: 30px;
+    background: rgba(148,148,148,0.93);
+    border-collapse: collapse;
+}
+
+.clist ru{
+    padding-left: 17px;
+}
+.clist i{
+    padding-left: 40px;
+}
+#h{
+    padding-top:20px ;
+    text-align: center;
+padding-bottom: 20px;
+}
+
+#blog{
+    background: white;
+}
+#blog h1{
+    text-align: center;
+    padding-top: 30px;
+}
+#blog h2{
+    text-align: center;
+}
+#blog img{
+    width: 100%;
+    height: 550px;
+    padding: 30px;
+}
+#blog p{
+    margin: 23px;
+}
+
+
+#art{
+    border: 3px solid;
+    background: #e0e0e0;
+    width: 1000px;
+    min-height: 800px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+
+}
+#art p{
+    padding: 10px;
+}
+
+#authcontainer{
+    margin-bottom:  200px;
+    margin-top:  200px;
+    width: 400px;
+    min-height: 600px;
+    background: silver;
+}
+#authcontainer form{
+    padding-top: 70px;
+}
+#authcontainer h1{
+    text-align: center;
+}
+.form-group{
+    padding-bottom: 20px;
+}
+
+#authbutton{
+    margin-left: 110px;
+    width: 250px;
+}
+#authcontainer a{
+    margin-left: 100px;
+
+}
+
+
+
+
+
+
